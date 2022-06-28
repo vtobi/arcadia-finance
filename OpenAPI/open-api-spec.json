@@ -249,10 +249,10 @@
         ],
         "properties": {
           "amount": {
-            "type": "string",
+            "type": "string"
           },
           "account": {
-            "type": "string",
+            "type": "string"
           },
           "currency": {
             "type": "string"
