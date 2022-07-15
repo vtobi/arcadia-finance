@@ -1,0 +1,34 @@
+{
+   "policy": {
+      "name": "policy-api-arcadia",
+      "description": "Arcadia API",
+      "template": {
+         "name": "POLICY_TEMPLATE_API_SECURITY"
+      },
+      "enforcementMode": "transparent",
+      "server-technologies": [
+         {
+            "serverTechnologyName": "MySQL"
+         },
+         {
+            "serverTechnologyName": "Unix/Linux"
+         },
+         {
+            "serverTechnologyName": "MongoDB"
+         }
+      ],
+      "signature-settings": {
+         "signatureStaging": false
+      },
+      "policy-builder": {
+         "learnOnlyFromNonBotTraffic": false
+      },
+      "open-api-files": [
+           {
+           "link": "https://raw.githubusercontent.com/vtobi/arcadia-finance/19952c7c1394279348797b4672741ac84149d769/OpenAPI/open-api-spec.json"
+           }
+      ]
+   },
+   "modifications": [
+   ] 
+}
