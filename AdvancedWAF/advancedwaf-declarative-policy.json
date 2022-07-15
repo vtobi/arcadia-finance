@@ -25,7 +25,7 @@
       },
       "open-api-files": [
            {
-           "link": "https://raw.githubusercontent.com/vtobi/arcadia-finance/19952c7c1394279348797b4672741ac84149d769/OpenAPI/open-api-spec.json"
+           "link": "https://raw.githubusercontent.com/vtobi/arcadia-finance/main/OpenAPI/open-api-spec.json"
            }
       ]
    },
